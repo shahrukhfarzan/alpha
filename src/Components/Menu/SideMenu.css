@@ -1,0 +1,26 @@
+.side-menu {
+    background: #fff;
+    height: 100vh;
+
+}
+.side-menu ul {
+    padding-inline-start: 0;
+}
+
+.side-menu ul li {
+    list-style: none;
+
+}
+
+.side-menu ul li  a{
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #69995D;
+
+    
+}
+.side-menu ul li  a.active{
+    background-color: #69995D;
+    color: #fff;
+}

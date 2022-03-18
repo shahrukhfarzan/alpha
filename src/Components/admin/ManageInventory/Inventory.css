@@ -1,0 +1,29 @@
+.table {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.table thead {
+  background: #69995D;
+  padding: 20px;
+  color: #fff;
+}
+.table thead tr th {
+  padding: 20px;
+}
+.input-wrapper input {
+  width: 100%;
+  line-height: 1rem;
+  padding: 18px 12px;
+}
+.medicine-wrapper .btn {
+  margin-top: 20px;
+  background-color: #71cc5a;
+  color: #fff;
+  border-radius: 25px;
+  padding: 12px 18px;
+}
+input:focus {
+  box-shadow: none;
+  border-color: #aefa9b;
+  outline: 0;
+}

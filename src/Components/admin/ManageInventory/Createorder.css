@@ -1,0 +1,49 @@
+.order-body {
+  display: flex;
+  flex: 2;
+  height: 100%;
+}
+.order-body .order-body-left,
+.order-body .order-body-right {
+  flex: 1;
+}
+.order-body .order-body-left {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+.contact-row {
+  display: flex;
+}
+.order-form {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+.order-body .order-body-right {
+  display: flex;
+  align-items: center;
+}
+.order-table {
+  width: 100%;
+}
+.order-table thead tr td {
+  font-weight: 600;
+  color: black;
+  font-size: 16px;
+}
+.order-table tbody {
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+.order-table tbody tr td {
+  padding: 10px;
+}
+
+.input-wrapper{
+    display: flex;
+    width: 224px;
+    align-items: center;
+justify-content: stretch;
+   
+}
